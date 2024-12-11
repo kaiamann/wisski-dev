@@ -14,7 +14,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://git.drupalcode.org/project/wisski.git"
+            "url": "https://git.drupalcode.org/project/wisski.git:8.x-4.x"
         }
     ],
     "require": {
