@@ -1,0 +1,12 @@
+name: 'WissKI Dev'
+description: 'WissKI dev environment with mandatory modules.'
+type: 'Site'
+
+install:
+  - inline_entity_form
+  - wisski
+
+config:
+  import:
+    inline_entity_form: "*"
+    wisski: "*"

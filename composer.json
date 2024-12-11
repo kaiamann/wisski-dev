@@ -1,0 +1,24 @@
+{
+    "name": "kaiamann/wisski-dev",
+    "version": "dev",
+    "description": "Installs and configures the WissKI dev environment with mandatory modules.",
+    "keywords": ["drupal recipe", "wisski"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Kai Amann",
+            "role": "Maintainer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/wisski.git"
+        }
+    ],
+    "require": {
+        "drupal/inline_entity_form": "^3.0@RC",
+        "drupal/wisski": "4.x-dev@dev"
+    }
+}
